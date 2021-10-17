@@ -1,0 +1,11 @@
+.dialogs{
+    display: grid;
+    grid-template-columns: 2fr 10fr;
+   background: salmon;
+}
+
+
+.messages{
+    padding:10px;
+    color: rgb(38, 0, 255);
+}
