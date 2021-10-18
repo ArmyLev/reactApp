@@ -3,7 +3,7 @@ import p from './Profile.module.css';
 import MyWale from './MyWale/MyWale';
 import ProfileInfo from "./Info/ProfileInfo";
 const Profile = (props) =>{
-  console.log();
+  console.log(props);
   return(
     <div className= {p.profile}> 
       <ProfileInfo />
@@ -12,6 +12,6 @@ const Profile = (props) =>{
               dispatch={props.dispatch}
               />
     </div>
-  )
+  ) 
 }      
 export default Profile;

@@ -1,7 +1,7 @@
 import React from "react";
 import MW from './MyWale.module.css';
 import Post from './Post/Post'
-import {addPostActionCreator, updateNewPostTextActionCreator} from '../../../redux/state';
+import {addPostActionCreator, updateNewPostTextActionCreator} from '../../../redux/profileReducer';
 
 
 const MyWale = (props) =>{
