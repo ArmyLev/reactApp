@@ -40,7 +40,6 @@ let store = {
   },
 
   dispatch(action){
-
     this._state.profile = profileReducer(this._state.profile, action);
     this._state.dialog = dialogsReducer(this._state.dialog, action);
     this._callSubscriber(this._state);

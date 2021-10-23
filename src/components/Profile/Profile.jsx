@@ -1,16 +1,13 @@
 import React from "react";
 import p from './Profile.module.css';
-import MyWale from './MyWale/MyWale';
 import ProfileInfo from "./Info/ProfileInfo";
+import MyWaleContainer from "./MyWale/MyWaleContainer";
+
 const Profile = (props) =>{
-  console.log(props);
   return(
     <div className= {p.profile}> 
       <ProfileInfo />
-      <MyWale profile={props.profile.posts} 
-              newPostText={props.profile.newPostText}
-              dispatch={props.dispatch}
-              />
+      <MyWaleContainer store={props}/>
     </div>
   ) 
 }      
