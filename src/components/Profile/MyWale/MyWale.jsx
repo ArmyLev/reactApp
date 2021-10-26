@@ -3,7 +3,6 @@ import MW from './MyWale.module.css';
 import Post from './Post/Post';
 
 const MyWale = (props) =>{
-  
   let postsElement = 
   props.posts.posts.map( p => <Post message={p.message} likesCount={p.likesCount} /> );
 
